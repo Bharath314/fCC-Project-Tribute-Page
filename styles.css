@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1489648022186-8f49310909a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2110&q=80");
+  background-size: cover;
+  color: #f5f6f7;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.75);
+}
