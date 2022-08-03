@@ -10,14 +10,39 @@ body {
   background-repeat: no-repeat;
   color: #f5f6f7;
   font-family: 'Roboto', sans-serif;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 main {
   background-color: rgba(0, 0, 0, 0.75);
   width: 75vw;
   margin: 0 auto;
-  padding: 20px;
+  padding: 1.25rem;
   max-width: 120rem;
   min-width: 18.125rem;
+}
+
+#title {
+  text-align: center;
+  color: orange;
+  padding: 0.25rem 0.25rem 0.05rem 0.25rem;
+  font-size: 3rem;
+}
+
+#title + p {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+#img-div {
+  text-align: center;
+  padding: 1rem;
+}
+
+#image {
+  display: block;
+  margin: auto;
+  border-radius: 1rem;
+  max-width: 100%;
+  height: auto;
 }
